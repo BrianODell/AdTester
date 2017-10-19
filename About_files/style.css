@@ -1,0 +1,646 @@
+/*
+Theme Name: Mutt Strut Theme
+Theme URI: http://matchbookcreative.com
+Author: Matchbook Creative
+Author URI: http://wordpress.org/
+Description: MB's custom theme
+Version: 1.0
+
+*/
+
+/* MISC */
+
+#copyright {
+	
+	font-family:'Avenir LT', 'Avenir LT W01_45 Book O1475514';
+	
+	font-size: 15px;
+	
+	font-color: #404041;
+	
+	text-align: center;
+	
+	padding-left: 10px;
+	
+	padding-right: 10px;
+	
+}
+
+.page-header-image {
+	
+	width: 100%;
+	
+}
+
+.red {
+	
+	color: #BD2D28;
+	
+}
+
+.basic-font {
+	
+	font-family: 'Futura BT', 'Futura', 'Futura BT W01 Book';
+	
+	color: #979899;
+	
+	font-size: 16px;
+	
+	margin-top: 20px;
+	
+}
+
+.basic-section-header {
+	
+	font-family: 'Futura', 'Futura BT W01 Book';
+	
+	color: #1e3769;
+	
+	font-size: 16px;
+	
+	text-transform: uppercase;
+	
+	margin-top: 25px;
+	
+}
+
+.basic-section-major {
+	
+	font-size: 50px;
+	
+	color: #BD2D28;
+	
+	font-family:'Bebas Neue', 'Bebas Neue W01 Regular';
+	
+	margin-top: 25px;
+	
+}
+
+.fof-content > div, .fof-content > div > div {
+	
+	text-align: center;
+	
+}
+
+.fof-line {
+	
+	height: 1px;
+	
+	background: #BD2D28;
+	
+	margin: 44.5px 0px;
+	
+}
+
+.fof-header {
+	
+	font-size: 50px;
+	
+	color: #BD2D28;
+	
+	font-family:'Bebas Neue', 'Bebas Neue W01 Regular';
+	
+	margin-top: 25px;
+	
+	text-align: center;
+	
+}
+
+.fof-text {
+	
+	font-size: 50px;
+	
+	color: #BD2D28;
+	
+	font-family:'Bebas Neue', 'Bebas Neue W01 Regular';
+	
+	font-weight: 100;
+	
+	margin-top: 25px;
+	
+	text-align: center;
+	
+}
+
+.basic-section-major-vendor {
+	
+	font-size: 32px;
+	
+	color: #BD2D28;
+	
+	font-family:'Bebas Neue', 'Bebas Neue W01 Regular';
+	
+	margin-top: 25px;
+	
+}
+
+
+
+#page-header-event {
+	
+	height: 110px;
+	
+	text-align: center;
+	
+	background-color: #dadada;
+	
+}
+
+#event-top-text {
+	
+	font-family:'Bebas Neue', 'Bebas Neue W01 Regular';
+	
+	font-size: 26px;
+	
+	font-weight: bold;
+	
+	color: #1e3769;
+	
+	margin: 0px;
+	
+	padding: 0px;
+	
+	padding-top: 40px;
+	
+}
+
+#event-bottom-text {
+	
+	font-family:'Bebas Neue', 'Bebas Neue W01 Regular';
+	
+	font-size: 18px;
+	
+	color: #BD2D28;
+	
+	margin: 0px;
+	
+	padding: 0px;
+	
+}
+
+.red {
+	
+	color: #BD2D28;
+	
+}
+
+
+/* Header */
+
+#header-container {
+	
+	height: 117px;
+	
+	position: relative;
+	
+	z-index: 99;
+	
+}
+
+#menu-button {
+	
+	width: 234px;
+	
+	height: 46.8px;
+	
+}
+
+#header-logo {
+	
+	position: absolute;
+	
+	width: 236.6px;
+	
+	height: 152.1px;
+	
+	left: calc( 50% - 118.3px);
+	
+	bottom: -42.9px;
+
+}
+
+#header-buttons {
+	
+	width: auto;
+	
+	position: absolute;
+	
+	right: 50px;
+	
+	bottom: 15px;
+	
+}
+
+.click-nav {
+	
+	position: absolute;
+	
+	width: 234px;
+	
+	left: 0px;
+	
+	bottom: -23.4px;
+	
+	background-color: transparent;
+
+}
+
+.click-nav .js {
+	
+	margin: 0px;
+	
+	padding: 0px;
+	
+	background-color: transparent;
+	
+}
+
+.click-nav ul {
+	
+	position:relative;
+	
+	font-weight:900;
+	
+}
+
+.click-nav ul li {
+	
+	position:relative;
+	
+	list-style:none;
+	
+	cursor:pointer;
+	
+}
+
+.click-nav ul li ul {
+	
+	position:absolute;
+	
+	left:0;
+	
+	right:0;
+	
+}
+
+.click-nav ul .clicker {
+	
+	position:relative;
+	
+	background-color: transparent;
+	
+}
+
+.click-nav ul .clicker:hover {
+	
+	background-color: transparent;
+	
+}
+
+.click-nav ul li a {
+	
+	transition:background-color 0.2s ease-in-out;
+	
+	-webkit-transition:background-color 0.2s ease-in-out;
+	
+	-moz-transition:background-color 0.2s ease-in-out;
+	
+	display:block;
+	
+	background:#FFF;
+	
+	color:#333;
+	
+	text-decoration:none;
+	
+}
+
+.click-nav ul li a:hover {
+	
+	background:#F2F2F2;
+	
+}
+
+.click-nav .no-js ul {
+	
+	display:none;
+	
+}
+
+.click-nav .no-js:hover ul {
+	
+	display:block;
+	
+}
+
+#menu-main-menu {
+	
+	padding: 0px!important;
+	
+	text-align: center;
+	
+	width: 90%;
+	
+	margin-top: 1px;
+	
+}
+
+#menu-main-menu li {
+	
+	display: block;
+	
+	font-family:'Bebas Neue', 'Bebas Neue W01 Regular';
+	
+	font-size: 22px;
+	
+	color: #BD2D28;
+	
+	border-bottom: 1px solid #BD2D28;
+	
+}
+
+/* Home */
+
+#bottom-tiles {
+	
+	background-image: url( '../muttstrut/img/HomeContact/footer.png' );
+	
+	background-size: contain;
+	
+    background-repeat: no-repeat;
+    
+    background-position: center bottom;
+    
+    overflow: auto;
+
+}
+
+#bottom-tiles-container {
+    
+    margin-top: 100px;
+	
+	/*margin-bottom: 220px;*/
+	
+	overflow: auto;
+	
+}
+
+#bottom-sponsors{
+	margin-bottom:220px;
+	min-height:180px;
+}
+#bottom-tile {
+	
+	border-left: 1px solid #1e3769;
+	
+	text-align: center;
+	
+}
+
+#bottom-tile:first-child {
+	
+	border-left: none;
+	
+}
+
+#tile-image {
+	
+	width: 100%;
+	
+	max-width: 150px;
+	
+	border: 2px dashed transparent;
+	
+	border-radius: 50%;
+	
+}
+
+#tile-image:hover {
+	
+	border: 2px dashed #BD2D28;
+	
+	border-radius: 50%;
+	
+}
+
+/* Contact */
+
+.contact-content {
+	
+	margin-top: 100px;
+	
+	margin-bottom: 100px;
+	
+	text-align: center;
+	
+}
+
+/* About */
+
+#about-title {
+	
+	font-size: 50px;
+	
+	color: #BD2D28;
+	
+	font-family:'Bebas Neue', 'Bebas Neue W01 Regular';
+	
+}
+
+#about-slider {
+	
+	width: 100%;
+	
+}
+
+/* FAQ */
+
+.faq-position {
+	
+	margin-top: 500px;
+	
+}
+.faq h2{
+	font-size: 50px;
+	color: #BD2D28;
+	font-family: 'Bebas Neue', 'Bebas Neue W01 Regular';
+	margin-top: 25px;
+}
+.faq h3{
+	font-family: 'Futura', 'Futura BT W01 Book';
+	color: #1e3769;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 25px;
+}
+.faq p{
+	font-family: 'Futura BT', 'Futura', 'Futura BT W01 Book';
+	color: #979899;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+/* Fundraise */
+
+#fundraise-header {
+	
+	background-color: #BD2D28;
+	
+	padding: 15px;
+	
+	margin-bottom: 15px;
+	
+}
+
+#fundraise-content {
+	
+	margin-top: 40px;
+	
+}
+
+#fundraise-tiles {
+	
+	margin-top: 40px;
+	
+}
+
+#fundraise-title {
+	
+	font-size: 50px;
+	
+	color: #ffffff;
+	
+	font-family:'Bebas Neue', 'Bebas Neue W01 Regular';
+	
+}
+
+#fundraise-image {
+	
+	width: 100%;
+	
+}
+
+.fundraise-tile-image {
+	
+	width: 100%;
+	
+}
+
+/* Sponsor */
+
+#sponsor-side-header {
+	
+	width: 100%;
+	
+}
+
+.sponsor-level {
+	
+	display: block;
+	
+	font-family:'Bebas Neue', 'Bebas Neue W01 Regular';
+	
+	font-size: 22px;
+	
+	padding: 16px 0px;
+	
+	text-align: center;
+	
+	color: #BD2D28;
+	
+	border-bottom: 1px solid #BD2D28;
+	
+}
+
+.sponsor-level:hover {
+	
+	color: #BD2D28;
+	
+	text-decoration: none;
+	
+}
+
+#sponsorship-levels {
+	
+	margin-bottom: 30px;
+	
+}
+
+/* bxslider */
+
+.bx-wrapper .bx-viewport {
+	
+    -moz-box-shadow: none!important;
+    
+    -webkit-box-shadow: none!important;
+    
+    box-shadow: none!important;
+    
+    border: none!important;
+    
+    left: 0px!important;
+    
+    background: none!important;
+    
+    margin-top: 30px;
+    
+}
+
+.bxslider > li {
+	
+	text-align: center;
+	
+}
+
+.bx-wrapper img {
+	
+	display: inline-block!important;
+	
+}
+
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+	
+	#bottom-tile {
+		
+		border: none;
+		
+	}
+	
+}
+
+@media only screen and (min-width : 320px) and (max-width : 1050px) {
+	
+	#header-logo {
+		
+		position: initial;
+		
+		margin-top: 10px;
+		
+		margin-bottom: 20px;
+		
+	}
+	
+	#header-buttons {
+		
+		position: initial;
+		
+		margin-bottom: 40px;
+		
+	}
+	
+	#header-container {
+		
+		height: auto;
+		
+		text-align: center;
+		
+	}
+	
+	.click-nav {
+		
+		bottom: -58px;
+		
+	}
+	
+}
+	

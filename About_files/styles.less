@@ -1,0 +1,65 @@
+/* Color Palette */
+@green: #18a84a;
+@gray: #939598;
+@white: #ffffff;
+/* Color Palette */
+
+
+header#header{
+  border-bottom: 3px solid @green;
+}
+
+.hero-image{
+  width: 100%;
+  min-height: 813px;
+  background: url('img/hero-image.jpg') no-repeat;
+  background-size: cover;
+  
+}
+
+
+/*Menu*/
+nav ul.menu{ margin: 0;}
+nav ul.menu li{ display: inline;  list-style: none; margin-right: 20px; }
+nav ul.menu li a{color: @gray; text-decoration: none;}
+nav ul.menu li a:hover{color: @green;}
+
+
+
+/** MEDIA QUERIES **/
+@screen-xs: 480px;
+@screen-xs-max: 480px;
+@screen-sm: 768px;
+@screen-sm-min: 768px;
+@screen-sm-max: 899px;
+@screen-smmd:900px;
+@screen-md: 992px;
+@screen-md-min: 900px;
+@screen-md-max: 1199px;
+@screen-lg: 1200px;
+@screen-lg-min: 1200px;
+
+
+
+/* MAX 768  */
+@media (max-width: @screen-sm-min) {
+    
+
+
+    
+}
+
+/* MIN: 768 MAX: 992 */
+@media (min-width: @screen-sm-min) and (max-width: @screen-md) { 
+  
+  
+
+}
+
+/* MIN: 900 MAX: 1199 */
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { 
+
+}
+
+/* MIN: 1200  */
+@media (min-width: @screen-lg-min) { img#logo{width: 80%;} }
